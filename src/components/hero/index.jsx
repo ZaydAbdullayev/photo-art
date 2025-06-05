@@ -87,3 +87,29 @@ export const HeroUploadSection = () => {
     </section>
   );
 };
+
+export const AboutSection = () => {
+  return (
+    <section id="about" className={"aboutWrapper"}>
+      <div className={"container"}>
+        <h2>About Our AI</h2>
+        <p>
+          Our cutting-edge AI uses state-of-the-art facial recognition and
+          blending techniques to deliver stunningly accurate face swaps. Whether
+          you're just having fun or exploring new creative ideas, our system
+          adapts to your inputs with precision and speed.
+        </p>
+        <p>
+          We prioritize <strong>user privacy</strong>. All uploads are processed
+          in real-time and automatically deleted — nothing is stored on our
+          servers. Your creativity is yours alone.
+        </p>
+        <div className={"features"}>
+          <div className={"feature"}>🤖 Advanced Neural Engine</div>
+          <div className={"feature"}>🔒 Secure & Private Processing</div>
+          <div className={"feature"}>⚡ Instant Results, No Waiting</div>
+        </div>
+      </div>
+    </section>
+  );
+};

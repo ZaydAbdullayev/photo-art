@@ -224,6 +224,58 @@
     }
   }
 }
+.aboutWrapper {
+  padding: 6rem 4rem;
+  background: linear-gradient(to bottom, #0e0e0e, #151515);
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+    opacity: 0.9;
+
+    strong {
+      color: #58c1ff;
+    }
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 2rem;
+
+  .feature {
+    background: #1e1e1e;
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: 1px solid #333;
+    color: #ccc;
+    transition: 0.3s;
+
+    &:hover {
+      background: #292929;
+      color: #58c1ff;
+    }
+  }
+}
+
 
 .temp-wrapper {
   padding: 5rem 4rem;
