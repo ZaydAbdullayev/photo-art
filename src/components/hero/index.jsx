@@ -29,7 +29,7 @@ export const HeroUploadSection = () => {
   return (
     <section id="upload" className="hero-wrapper">
       <div className="sidebar">
-        <h3>Choose Example</h3>
+        <h3>Examples</h3>
         <div className="thumbList">
           {exampleImgs.map((src, i) => (
             <img
